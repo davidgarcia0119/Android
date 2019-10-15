@@ -8,6 +8,11 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
+
+    private lateinit var myTextView: TextView
+    private lateinit var mybutton: Button
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
